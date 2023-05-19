@@ -25,3 +25,8 @@
 Being completely new to all this, I find it intriguing.
 The model will clearly be used to interpret images in the game, but, I have no idea how it will do this.
 The code can be executed from a Python script, so, I look forward to writing it.
+
+### Modification:
+
+Previous push used images, as I did not have a webcam.
+Now that I have one, I have take pictures from it and removed the images.
