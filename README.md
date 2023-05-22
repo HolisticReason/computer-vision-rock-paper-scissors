@@ -51,3 +51,6 @@ New file: manual_rps.py
         get_user_choice         - returns user's choice of the three options.
         get_winner              - uses computer and user choices to establish the winner
         play                    - Calls the get_winner function with the arguments returned from the first two.
+
+### Modification to manual_rps.py
+list of choices is now placed inside the get_computer_choice function, which was not indicated in original requirement

@@ -2,11 +2,12 @@
 
 import random as rnd
 
-# list of options
-options = ["rock", "paper", "scissors"]
 
 # Get the choice from the computer
 def get_computer_choice():
+
+    # list of options 
+    options = ["rock", "paper", "scissors"]
     
     return rnd.choice(options)
 
@@ -14,6 +15,7 @@ def get_computer_choice():
 def get_user_choice():
     
     return input("Please enter your choice: ")
+
 
 # Use computer and user choices to establish the winner
 def get_winner(computer_choice, user_choice):
